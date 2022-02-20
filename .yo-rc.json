@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "version": "1.14.0",
+    "libraryName": "ziyanwebpart",
+    "libraryId": "e912dedf-7672-497d-a906-bda27dcb4ee5",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "ziyanwebpart",
+    "solutionShortDescription": "ziyanwebpart description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

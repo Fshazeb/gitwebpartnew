@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "ziyanwebpart-client-side-solution",
+    "id": "e912dedf-7672-497d-a906-bda27dcb4ee5",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.14.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "ziyanwebpart description"
+      },
+      "longDescription": {
+        "default": "ziyanwebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "ziyanwebpart Feature",
+        "description": "The feature that activates elements of the ziyanwebpart solution.",
+        "id": "ae4ebf62-e9fe-4cc9-a249-2d9f775b2fd1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/ziyanwebpart.sppkg"
+  }
+}

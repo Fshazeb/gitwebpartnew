@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "helloziyan-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/helloziyanWebpart/HelloziyanWebpartWebPart.js",
+          "manifest": "./src/webparts/helloziyanWebpart/HelloziyanWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "HelloziyanWebpartWebPartStrings": "lib/webparts/helloziyanWebpart/loc/{locale}.js"
+  }
+}
